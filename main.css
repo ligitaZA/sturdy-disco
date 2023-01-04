@@ -1,9 +1,17 @@
+body {
+  margin: 0;
+  background-color: rgba(131, 123, 111, 0.349);
+}
 section#gitKomandos > ul {
   max-width: 80%;
-  margin: 30px ;
+  margin: 30px auto;
   padding: 30px;
   background-color: rgb(97, 160, 212);
   border-radius: 10px;
   color: rgba(255, 255, 255, 0.856);
   font-size: 1.5rem;
+}
+section#gitKomandos li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.3;
 }
